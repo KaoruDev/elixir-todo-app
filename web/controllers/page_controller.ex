@@ -9,7 +9,6 @@ defmodule TodoPhoenix.PageController do
 
   def welcome(conn, _params) do
     conn
-      |> put_layout(false)
       |> render "welcome.html"
   end
 end
